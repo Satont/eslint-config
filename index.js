@@ -101,7 +101,11 @@ module.exports = {
     ],
     "vue/multi-word-component-names": [
       "off"
-    ]
+    ],
+    "vue/static-class-names-order": ["error"],
+    "vue/component-tags-order": ["error", {
+      "order": [ [ "script", "template" ], "style" ]
+    }]
   },
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
